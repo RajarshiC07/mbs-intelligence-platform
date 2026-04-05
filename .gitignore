@@ -73,3 +73,6 @@ IMPORTNAT_SUMMARIZATION_Rajarshi.docx
 *.docx
 design
 "development instructions"
+
+# Claude personal overrides — never commit
+CLAUDE.local.md

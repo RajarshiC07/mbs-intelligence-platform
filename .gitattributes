@@ -1,0 +1,24 @@
+# Normalize line endings: store as LF in repo, checkout as-is on Windows
+* text=auto eol=lf
+
+# Explicitly LF for code and config
+*.py        text eol=lf
+*.cypher    text eol=lf
+*.md        text eol=lf
+*.json      text eol=lf
+*.yaml      text eol=lf
+*.yml       text eol=lf
+*.toml      text eol=lf
+*.txt       text eol=lf
+*.env       text eol=lf
+
+# Binary — no line ending conversion
+*.docx      binary
+*.xlsx      binary
+*.xls       binary
+*.parquet   binary
+*.feather   binary
+*.db        binary
+*.png       binary
+*.jpg       binary
+*.pdf       binary
